@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    font-family: "Roboto" sans-serif;
+    font-weight: 400;
+    height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 50px;
+}
+
+nav{
+    background-color:#1f2937;
+}
+
+.nav-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.nav-contain > ul{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-contain > ul > li > a {
+    color: #fff;
+}
+
+header{
+    background-color: #1f2937;
+}
+
+.head-contain{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.head-info{
+    color: white;
+    margin-top: 50px;
+}
+
+.head-info > h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.head-info > p{
+    margin-bottom: 10px;
+}
+
+.head-img{
+    width: 300px;
+    margin-top: 50px;
+}
+
+.head-button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    
+}
+
+.content-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;gap: 30px;
+    padding: 50px;
+}
+
+.content-contain > h2{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.box{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.box > img{
+    width: 100px;
+}
+
+.quote{
+    background-color:#e5e7eb ;
+    margin-top: 30px;
+}
+
+.quote-contain{
+    font-size: 36px;
+    padding: 60px 300px;
+    
+    
+}
+
+.quote-refrence{
+    text-align: end;
+}
+
+.sign-up-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 60px 300px;
+    margin: 50px;
+    color: #fff;
+    gap: 10px;
+}
+
+.sign-up-contain > div > h4{
+    font-size: 32px;
+}
+
+.sign-up-button{
+    padding: 10px 25px;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
